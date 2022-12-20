@@ -1,0 +1,127 @@
+.attribution { 
+font-size: 11px; 
+text-align: center; 
+color: white;
+}
+.attribution a {
+     color: hsl(228, 45%, 44%); 
+    }
+
+@import url('https://fonts.googleapis.com/css2?family=Overpass:wght@400;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+body {
+background-color: hsl(216, 12%, 8%);
+}
+
+.rate-start {
+    width: 30%;
+    height: 25em;
+    margin: 10% auto;
+    background-image: linear-gradient(rgb(24, 30, 45), rgb(22, 26, 36));
+    border-radius: 20px;
+}
+
+.wrapper {
+   margin: 0 8%;
+  padding: 5% 0;
+  font-family: 'Overpass', sans-serif;
+}
+
+.star {
+   background-color: hsl(213, 19%, 18%);
+    border-radius: 50%;
+    padding: 3%;
+    margin: 5% 0;
+}
+
+
+.wrapper h1 {
+   
+    color: white;
+    font-size: 25px;
+    font-weight: 700;
+}
+
+.wrapper p {
+    font-size: 15px;
+    margin: 5% 0;
+    color: hsl(217, 12%, 63%);
+}
+
+.wrapper ul {
+    display: flex;
+    width: 100%;
+}
+
+.wrapper li {
+    margin: 5% auto;
+    border-radius: 50%;
+    background-color: hsl(213, 19%, 18%);
+    padding: 5% 6%;
+    color: hsl(217, 12%, 63%);
+ 
+   
+}
+
+.wrapper button {
+    margin-top: 5%;
+   
+    width: 100%;
+    background-color: white;
+    height: 50px;
+    border-radius: 50px;
+    letter-spacing: 2px;
+    color: hsl(25, 97%, 53%);
+    font-weight: 700;
+ 
+}
+
+.wrapper li:hover {
+    background-color: hsl(217, 12%, 63%);
+    color: white;
+}
+
+.wrapper button:hover { 
+color: white;
+background-color: hsl(25, 97%, 53%);
+}
+
+.two {
+    
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    display: none;
+    
+}
+
+.two .rates {
+    color: orange;
+    padding: 10px 20px;
+    border-radius: 50px;
+    background-color:  hsl(213, 19%, 18%);
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.two p {
+   text-align: center;
+   font-weight: 500;
+   color: hsl(217, 12%, 63%);
+}
+
+@media only screen and (max-width: 850px) {
+   .rate-start {
+    width: 90%;
+    margin-top: 25%;
+    height: 100%;
+   }
+
+   
+  }
